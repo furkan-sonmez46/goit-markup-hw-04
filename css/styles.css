@@ -118,19 +118,17 @@ img {
   color: #404bbf;
 }
 
-.nav-list li::after  {
+.nav-list li:active::after a {
+  content: "";
+  background-color: #404bbf;
   width: 48px;
   height: 4px;
-  background-color: #fff;
+  position: absolute;
+  left: 0;
 }
 
-.nav-list li:hover::after {
-  content:"";
-  width: 48px;
-  height: 4px;
-  padding-top: 44px;
-  border-radius: 2px;
-  background-color: #404BBF;
+.nav-list li:hover::after a {
+    background-color: #404bbf;
 }
 
 .adres {
@@ -467,11 +465,15 @@ section {
   gap: 16px;
 }
 
-.footer-social-media .icon {
+.footer-social-media .footer-icon {
   width: 24px;
   height: 24px;
+  fill: #fff;
 }
 
+.social-links .link:hover .footer-icon {
+    fill: #4D5AE5;
+}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   width: 71px;
