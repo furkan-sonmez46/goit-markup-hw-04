@@ -416,6 +416,7 @@ section {
 
 .section-three-list-item:hover .overlay {
     transform: translateY(0);
+    height: 300px;
 }
 
 .our-border {
