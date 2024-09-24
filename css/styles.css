@@ -340,7 +340,7 @@ section {
 }
 
 .social-links .link:hover {
-     background-color: #fff;
+     background-color: #31D0AA;
 }
 
 .social-links .icon {
@@ -349,7 +349,7 @@ section {
 }
 
 .social-links .link:hover .icon {
-    fill: #4D5AE5;
+    fill: #fff;
 }
 
 .section-two img {
@@ -501,8 +501,19 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 }
 
 .social-links .link:hover .footer-icon {
-    fill: #4D5AE5;
+    fill: #31D0AA;
 }
+
+.social-links .footer-icon {
+    fill: #fff;
+    
+}
+
+.social-links .link:hover .footer-icon {
+    fill: #fff;
+}
+
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   width: 71px;
