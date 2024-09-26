@@ -115,7 +115,7 @@ img {
 .nav-list li:focus a {
   color: #404bbf;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -175,6 +175,9 @@ img {
 .adres li:hover a,
 .adres li:focus a {
   color: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
@@ -230,7 +233,7 @@ section {
 .order-button:hover {
   background-color: #404bbf;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -348,7 +351,7 @@ section {
 .social-links .link:hover {
      background-color: #31D0AA;
      transition-duration: 250ms;
-     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links .icon {
@@ -511,7 +514,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 .social-links .link:hover .footer-icon {
     fill: #31D0AA;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
