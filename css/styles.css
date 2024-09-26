@@ -36,6 +36,7 @@ img {
 
 .container {
   width: 1158px;
+  max-width: 1440px;
   align-items: center;
   margin: 0 auto;
   padding: 0 15px;
