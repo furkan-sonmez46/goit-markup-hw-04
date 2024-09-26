@@ -130,6 +130,9 @@ img {
 
 .nav-list li:hover::after a {
     background-color: #404bbf;
+    transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .active{
@@ -447,7 +450,9 @@ section {
 .section-three-list-item:hover .overlay {
     transform: translateY(0);
     height: 300px;
-    
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
@@ -525,6 +530,9 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 
 .social-links .link:hover .footer-icon {
     fill: #fff;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
