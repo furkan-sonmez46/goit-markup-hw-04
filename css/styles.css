@@ -346,6 +346,7 @@ section {
 .social-links .icon {
     fill: #fff;
     
+    
 }
 
 .social-links .link:hover .icon {
@@ -495,8 +496,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 }
 
 .footer-social-media .social-links .footer-icon {
-  width: 24px;
-  height: 24px;
+  
   fill: #fff;
 }
 
