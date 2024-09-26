@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li {
 }
 
 body {
-  max-width: 1440px;
+  
   margin: 0 auto;
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -114,6 +114,9 @@ img {
 .nav-list li:hover a,
 .nav-list li:focus a {
   color: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .nav-list li:active::after a {
@@ -123,10 +126,15 @@ img {
   height: 4px;
   position: absolute;
   left: 0;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .nav-list li:hover::after a {
     background-color: #404bbf;
+    transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .active{
@@ -172,6 +180,9 @@ img {
 .adres li:hover a,
 .adres li:focus a {
   color: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
@@ -226,6 +237,9 @@ section {
 
 .order-button:hover {
   background-color: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .order-button:focus {
@@ -341,6 +355,8 @@ section {
 
 .social-links .link:hover {
      background-color: #31D0AA;
+     transition-duration: 250ms;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links .icon {
@@ -351,6 +367,8 @@ section {
 
 .social-links .link:hover .icon {
     fill: #fff;
+    transition-duration: 250ms;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-two img {
@@ -437,7 +455,9 @@ section {
 .section-three-list-item:hover .overlay {
     transform: translateY(0);
     height: 300px;
-    
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
@@ -502,6 +522,9 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 
 .social-links .link:hover .footer-icon {
     fill: #31D0AA;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .social-links .footer-icon {
@@ -511,6 +534,9 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 
 .social-links .link:hover .footer-icon {
     fill: #fff;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
