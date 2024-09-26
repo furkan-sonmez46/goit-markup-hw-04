@@ -36,7 +36,6 @@ img {
 
 .container {
   width: 1158px;
-  max-width: 1440px;
   align-items: center;
   margin: 0 auto;
   padding: 0 15px;
@@ -191,7 +190,7 @@ section {
 }
 
 .section-hero {
-  
+  max-width: 1440px;
   text-align: center;
   margin: 0 auto;
   padding: 188px 0;
