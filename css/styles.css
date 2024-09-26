@@ -226,6 +226,9 @@ section {
 
 .order-button:hover {
   background-color: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+
 }
 
 .order-button:focus {
@@ -341,6 +344,8 @@ section {
 
 .social-links .link:hover {
      background-color: #31D0AA;
+     transition-duration: 250ms;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .social-links .icon {
