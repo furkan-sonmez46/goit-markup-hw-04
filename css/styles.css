@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li {
 }
 
 body {
-  max-width: 1440px;
+  
   margin: 0 auto;
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -36,7 +36,6 @@ img {
 
 .container {
   width: 1158px;
-  max-width: 1440px;
   align-items: center;
   margin: 0 auto;
   padding: 0 15px;
