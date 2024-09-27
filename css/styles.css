@@ -13,6 +13,13 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li {
   vertical-align: baseline;
 }
 
+:hover,
+:focus{
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-property: color;
+}
+
 body {
   
   margin: 0 auto;
@@ -115,6 +122,7 @@ img {
   color: #404bbf;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 
 }
 
@@ -125,14 +133,14 @@ img {
   height: 4px;
   position: absolute;
   left: 0;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+  
 }
 
 .nav-list li:hover::after a {
     background-color: #404bbf;
     transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 
 }
 
@@ -151,13 +159,14 @@ img {
     background-color: #404bbf;
     transform: scaleX(0);
     transform-origin: left;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .nav-list-item:hover::after {
   transform: scaleX(1); /* Hover sırasında çizgi görünür hale gelir */
-transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 
 .adres {
@@ -183,6 +192,7 @@ transition-duration: 250ms;
   color: #404bbf;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 
 }
 
@@ -240,6 +250,7 @@ section {
   background-color: #404bbf;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 
 }
 
@@ -358,6 +369,7 @@ section {
      background-color: #31D0AA;
      transition-duration: 250ms;
      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+     transition-property: color;
 }
 
 .social-links .icon {
@@ -369,7 +381,8 @@ section {
 .social-links .link:hover .icon {
     fill: #fff;
     transition-duration: 250ms;
-     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
 }
 
 .section-two img {
@@ -458,6 +471,7 @@ section {
     height: 300px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
 
 }
 
@@ -467,7 +481,8 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
                 0 1px 1px 0 rgba(46, 47, 66, 0.16),
                 0 1px 6px 0 rgba(46, 47, 66, 0.08);
                 transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 
 .our-border {
@@ -527,6 +542,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     fill: #31D0AA;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
 
 }
 
@@ -538,7 +554,8 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 .social-links .link:hover .footer-icon {
     fill: #fff;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 
 }
 
